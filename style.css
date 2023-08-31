@@ -1,0 +1,122 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+
+div{
+    height: 100px ;
+    width: 100px ;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+div:hover{
+    background-color: red;
+    color: white;
+}
+
+/*
+div{
+    height: 100px ;
+    width: 100px ;
+    border : 2px solid black;
+}
+
+#container{
+    height: 400px  ;
+    width: 400px ;
+    display: flex ;
+    flex-wrap: wrap ;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+#box1{
+    background-color: pink;
+}
+
+#box2{
+    background-color: bisque;
+    height: 150px;
+}
+
+#box3{
+    background-color: burlywood;
+    width: 120px ;
+}
+
+#box4{
+    background-color: blueviolet;
+}
+
+#box5{
+    background-color: brown;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:black ;
+    height: 60px;
+}
+
+a{
+    margin:30px 200px 0px 0px ; 
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    color: greenyellow;
+    font-size: 25px;
+}
+
+button{
+    background-color: greenyellow;
+    border-radius: 3px;
+}
+
+input{
+    margin-left: 120px;
+}
+
+footer{
+    position: relative;
+    top: 610px;
+    color: white;
+    background-color: #0f1111;
+    text-align: center;
+} */
+
+/* inline styling has higher priority than external styling
+
+Text:
+ text-align :
+ text-decoration :
+ font-weight : Range 100-900
+               Gives boldness to text  
+ font-family : Font styling {
+    1.Multiple style can be provided using comma Which is applied based on browser
+    2.first priority is given to first style in the family
+ }
+ font-size : input is in pixels(px)
+ text-transform : lowercase , uppercase , capitalize , none
+ 
+Box style :
+ height : gives the height to content box
+ width : gives a specific width to the content box
+ border-color 
+ border-style : dotted , solid , etc
+ border-width : thickness of the border(in px)
+ border : width style color { shorcut for border attributes}
+         { alignment is done according to the border dimentions}
+ border-radius : in px or in % 
+ padding : spacing btw border and content box
+         { top | right | bottom | left --> clockwise }
+ 
+
+ */
